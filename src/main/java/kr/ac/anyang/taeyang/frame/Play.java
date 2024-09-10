@@ -17,10 +17,10 @@ public class Play extends JFrame {
         //TODO DB TEST
         Mysql postgres = new Mysql();
         setLayout(layout);
-        FrameHelper.DefaultSetup(this, () -> {
+        FrameHelper.PlaySetup(this, () -> {
             constraints.fill = GridBagConstraints.BOTH;
             constraints.weightx=4.0;
-            constraints.weighty=1.0;
+            constraints.weighty=1;
             constraints.gridx = 0;
             constraints.gridy = 0;
             Omok omok = new Omok();

@@ -86,7 +86,7 @@ public class Omok extends JPanel {
     }
 
     public Omok() {
-        setPreferredSize(new Dimension(PanelInfo.PLAY_WIDTH, PanelInfo.PLAY_HEIGHT));
+//        setPreferredSize(new Dimension(PanelInfo.PLAY_WIDTH, PanelInfo.PLAY_HEIGHT));
     }
 
     @Override
